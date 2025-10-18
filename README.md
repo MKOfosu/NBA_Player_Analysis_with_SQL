@@ -5,6 +5,8 @@
 ## 🏀 Project Overview  
 Basketball debates often hinge on subjective opinions, especially when it comes to the GOAT conversation. This project brings data to the forefront. Using MySQL, I analyzed over 12,000 player-season records spanning 27 NBA seasons (1996 - 2022) to uncover performance trends, compare eras, and identify statistically driven MVPs. A fully commented SQL file is included for reproducibility.
 
+Credit: Thanks to [Analyst Builder](https://www.analystbuilder.com/projects/nba-player-stats-whos-the-real-mvp-mvptf) for the dataset and terms of reference for the analysis.
+
 -------------
 
 ## 🎯 Objectives  
