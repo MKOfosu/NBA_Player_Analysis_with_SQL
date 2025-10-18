@@ -43,7 +43,7 @@ The dataset contained 12,844 player-season records across 27 seasons. I created 
 ### 🔍 Exploratory Analysis  
 Initial EDA included counts of unique teams, players, colleges, and countries, as well as range checks on numeric columns. This stage confirmed data quality and revealed key outliers.
 
-Key facts from the data
+**Key facts from the data**
 
 > 2551 unique players out of which 84% hail from USA. There are other 81 different nationalities represented in the NBA. This is not surprising because basketball as a sport was invented in  1891 in the USA and besides, the NBA is played in USA.
 It was also revealed that there are 36 unique teams, 353 unique colleges producing players for the NBA.

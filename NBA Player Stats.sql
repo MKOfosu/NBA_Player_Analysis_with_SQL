@@ -106,8 +106,15 @@ SELECT
     rebound, assist_per_game, net_rating, 
     offensive_rebound_pct, defensive_rebound_pct, 
     usage_pct, true_shooting_pct, assist_pct, season
-FROM all_seasons
-GROUP BY player_name, team_abbreviation, age, player_height, player_weight, college, country, draft_year, draft_round, draft_number, games_played, points_per_game, rebound, assist_per_game, net_rating, offensive_rebound_pct, defensive_rebound_pct, usage_pct, true_shooting_pct, assist_pct, season
+FROM 
+	all_seasons
+GROUP BY 
+	player_name, team_abbreviation, 
+    age, player_height, player_weight, college, 
+    country, draft_year, draft_round, draft_number, 
+    games_played, points_per_game, rebound, assist_per_game, 
+    net_rating, offensive_rebound_pct, defensive_rebound_pct, 
+    usage_pct, true_shooting_pct, assist_pct, season
 HAVING COUNT(*) > 1;
 
 -- There were no duplicate records found.
